@@ -1,0 +1,3 @@
+DESCRIPTION="Enlightenment E16 themes"
+HOMEPAGE="http://enlightenment.org/"
+SRC_URI="mirror://sourceforge/enlightenment/${P}.tar.gz"
