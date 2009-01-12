@@ -4,9 +4,9 @@ Additional themes for the Enlightenment DR16 window manager
 
 Build requirements:
 (besides corresponding -devel packages)
-  autoconf2.5-2.61-1
-  automake1.10-1.10.1-1
-  cygport-0.3.10-1
+  autoconf2.5-2.63-1
+  automake1.10-1.10.1-2
+  cygport-0.4.3-1
   make-3.81-1
 
 Canonical website:
@@ -18,23 +18,23 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack e16-themes-0.16.8.0.2-X-src.tar.bz2
+  unpack e16-themes-0.16.8.0.3-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./e16-themes-0.16.8.0.2-X.cygport all
+  cygport ./e16-themes-0.16.8.0.3-X.cygport all
 
 This will create:
-  /usr/src/e16-themes-0.16.8.0.2-X-src.tar.bz2
-  /usr/src/e16-themes-0.16.8.0.2-X.tar.bz2
+  /usr/src/e16-themes-0.16.8.0.3-X-src.tar.bz2
+  /usr/src/e16-themes-0.16.8.0.3-X.tar.bz2
 
 -------------------------------------------
 
 Files included in the binary package:
 
-  /usr/share/doc/e16-themes-0.16.8.0.2/AUTHORS
-  /usr/share/doc/e16-themes-0.16.8.0.2/COPYING
-  /usr/share/doc/e16-themes-0.16.8.0.2/ChangeLog
+  /usr/share/doc/e16-themes-0.16.8.0.3/AUTHORS
+  /usr/share/doc/e16-themes-0.16.8.0.3/COPYING
+  /usr/share/doc/e16-themes-0.16.8.0.3/ChangeLog
   /usr/share/e16/themes/BlueSteel/ABOUT/MAIN
   /usr/share/e16/themes/BlueSteel/ABOUT/bg.png
   /usr/share/e16/themes/BlueSteel/ABOUT/logo.png
@@ -2098,6 +2098,9 @@ Files included in the binary package:
 ------------------
 
 Port Notes:
+
+----- version 0.16.8.0.3-1 -----
+Version bump.
 
 ----- version 0.16.8.0.2-1 -----
 Initial release for Cygwin.
